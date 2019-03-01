@@ -6,13 +6,13 @@ let question3 = prompt('Am I a teacher?')
 let question4 = prompt('My birth day is end of the month')
 let question5 =prompt('Today is NewYear')
 
-if(question1 ==='Wenesh'){
+if(question1.toUpperCase==='Wenesh'){
 confirm('yes')
 }
   else{
     console.log('No')
   }
-if(question2 ==='Is hidden Figures my favorite movie?'){
+if(question2.toLowerCase ==='Is hidden Figures my favorite movie?'){
   console.log('yes')
 }
 
@@ -20,9 +20,17 @@ if(question2 ==='Is hidden Figures my favorite movie?'){
 }
 
 
-  if(question4 < 'Feb 20'){
-  console.log('No')
+  if(question4.toUpperCase ==='Feb 20'){
+  console.log('YES')
  }
-    else{console.log('Yes')
+    else{console.log('NO')
 
     }
+{ var month = i;
+'i' = ['Jan','Feb','March','Apr','May','Jun','Jul','Aug','Sep','Octo','Nov','Dec']
+
+var arrayLength;
+
+
+  
+}
